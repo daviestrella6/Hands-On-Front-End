@@ -1,5 +1,6 @@
 header {
-    margin: 0 auto;
+    margin: 30px auto;
+    width: 1024px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -10,8 +11,10 @@ header nav ul {
     display: flex;
     flex-direction: row;
     list-style: none;
+    align-items: center;
 }
 
-header nav ul li {
+header nav ul li a {
     margin: 0 15px;
+    color: #3399cc;
 }
