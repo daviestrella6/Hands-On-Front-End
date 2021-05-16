@@ -1,0 +1,61 @@
+
+@media (max-width: 1150px){
+    .container{
+        width: 950px;
+    }
+}
+
+@media (max-width: 1024px){
+    .container{
+        width: 850px;
+    }
+.sobre-web figcaption img{
+    width: 600px;
+}
+} 
+
+@media (max-width: 915px){
+    body{
+        background-position: left -200px;
+        background-color:#b1f4ff ;
+    }
+    .container{
+        width: 600px;
+    }
+    .row{
+        flex-direction: column;
+    }
+    header nav{
+        margin: 30px 0;
+    }
+    .sobre-web figcaption img{
+        width: 100%;
+        margin: 30px 0 0 ; 
+    }
+.sobre-web article{
+    width: 100%;
+}
+
+footer .row{
+flex-direction: row;
+justify-content: center;
+}
+footer ul li a img{
+    width: 45px;
+    height: 45px;
+}
+} 
+
+@media (max-width: 665px){
+    .container{
+        width: 400px;
+    }
+    
+}
+
+@media (max-width: 450px){
+    .container{
+        width: 290px;
+    }
+    
+}
